@@ -1,0 +1,9 @@
+---
+title: "Spitzer Microlensing Parallax for OGLE-2017-BLG-0896 Reveals a Counter-rotating Low-mass Brown Dwarf"
+collection: publications
+permalink: /publication/2019-03-01-Spitzer-Microlensing-Parallax-for-OGLE-2017-BLG-0896-Reveals-a-Counter-rotating-Low-mass-Brown-Dwarf
+date: 2019-03-01
+venue: 'aj'
+citation: ' Yossi {Shvartzvald},  Jennifer {Yee},  Jan {Skowron},  Chung-Uk {Lee},  Andrzej {Udalski},  Sebastiano {Calchi Novati},  Valerio {Bozza},  Charles {Beichman},  Geoffery {Bryden},  Sean {Carey},  B. {Gaudi},  Calen {Henderson},  Wei {Zhu},  Etienne {Bachelet},  Greg {Bolt},  Grant {Christie},  Dan {Maoz},  Tim {Natusch},  Richard {Pogge},  Rachel {Street},  Thiam-Guan {Tan},  Yiannis {Tsapras},  Pawe{\l} {Pietrukowicz},  Igor {Soszy{\&apos;n}ski},  Micha{\l} {Szyma{\&apos;n}ski},  Przemek {Mr{\&apos;o}z},  Radoslaw {Poleski},  Szymon {Koz{\l}owski},  Krzysztof {Ulaczyk},  Micha{\l} {Pawlak},  Krzysztof {Rybicki},  Patryk {Iwanek},  Michael {Albrow},  Sang-Mok {Cha},  Sun-Ju {Chung},  Andrew {Gould},  Cheongho {Han},  Kyu-Ha {Hwang},  Youn {Jung},  Dong-Jin {Kim},  Hyoun-Woo {Kim},  Seung-Lee {Kim},  Dong-Joo {Lee},  Yongseok {Lee},  Byeong-Gon {Park},  Yoon-Hyun {Ryu},  In-Gu {Shin},  Weicheng {Zang},  Martin {Dominik},  Christiane {Helling},  Markus {Hundertmark},  Uffe {J{\o}rgensen},  Penelope {Longa-Pe{\~n}a},  Stephen {Lowry},  Sedighe {Sajadian},  Martin {Burgdorf},  Justyn {Campbell-White},  Simona {Ciceri},  Daniel {Evans},  Yuri {Fujii},  Tobias {Hinse},  Sohrab {Rahvar},  Markus {Rabus},  Jesper {Skottfelt},  Colin {Snodgrass},  John {Southworth}, &quot;Spitzer Microlensing Parallax for OGLE-2017-BLG-0896 Reveals a Counter-rotating Low-mass Brown Dwarf.&quot; aj, 2019.'
+---
+Use [Google Scholar](https://scholar.google.com/scholar?q=Spitzer+Microlensing+Parallax+for+OGLE+2017+BLG+0896+Reveals+a+Counter+rotating+Low+mass+Brown+Dwarf){:target="_blank"} for full citation
