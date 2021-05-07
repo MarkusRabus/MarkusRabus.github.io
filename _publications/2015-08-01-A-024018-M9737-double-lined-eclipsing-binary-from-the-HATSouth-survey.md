@@ -1,5 +1,5 @@
 ---
-title: "A 0.24+0.18 M$_ensuremathodot$ double-lined eclipsing binary from the HATSouth survey"
+title: "A 0.24+0.18 M&amp;#9737; double-lined eclipsing binary from the HATSouth survey"
 collection: publications
 permalink: /publication/2015-08-01-A-024018-M9737-double-lined-eclipsing-binary-from-the-HATSouth-survey
 date: 2015-08-01
