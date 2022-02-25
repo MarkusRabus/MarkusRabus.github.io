@@ -1,0 +1,9 @@
+---
+title: "OGLE-2018-BLG-1185b: A Low-mass Microlensing Planet Orbiting a Low-mass Dwarf"
+collection: publications
+permalink: /publication/2021-08-01-OGLE-2018-BLG-1185b-A-Low-mass-Microlensing-Planet-Orbiting-a-Low-mass-Dwarf
+date: 2021-08-01
+venue: 'The Astronomical Journal'
+citation: ' Iona Kondo,  Jennifer Yee,  David Bennett,  Takahiro Sumi,  Naoki Koshimoto,  Ian Bond,  Andrew Gould,  Andrzej Udalski,  Yossi Shvartzvald,  Youn Jung,  Weicheng Zang,  Valerio Bozza,  Etienne Bachelet,  Markus Hundertmark,  Nicholas Rattenbury,  F. Abe,  R. Barry,  A. Bhattacharya,  M. Donachie,  A. Fukui,  H. Fujii,  Y. Hirao,  S. Silva,  Y. Itow,  R. Kirikawa,  M. Li,  Y. Matsubara,  S. Miyazaki,  Y. Muraki,  G. Olmschenk,  C. Ranc,  Y. Satoh,  H. Shoji,  D. Suzuki,  Y. Tanaka,  P. Tristram,  T. Yamawaki,  A. Yonehara,  P. Mróz,  R. Poleski,  J. Skowron,  M. Szymański,  I. Soszyński,  S. Kozłowski,  P. Pietrukowicz,  K. Ulaczyk,  K. Rybicki,  P. Iwanek,  M. Wrona,  M. Albrow,  S. Chung,  C. Han,  K. Hwang,  H. Kim,  I. Shin,  S. Cha,  D. Kim,  S. Kim,  C. Lee,  D. Lee,  Y. Lee,  B. Park,  R. Pogge,  Y. Ryu,  C. Beichman,  G. Bryden,  S. Novati,  S. Carey,  B. Gaudi,  C. Henderson,  W. Zhu,  D. Maoz,  M. Penny,  M. Dominik,  U. Jørgensen,  P. Longa-Peña,  N. Peixinho,  S. Sajadian,  J. Skottfelt,  C. Snodgrass,  J. Tregloan-Reed,  M. Burgdorf,  J. Campbell-White,  S. Dib,  Y. Fujii,  T. Hinse,  E. Khalouei,  S. Rahvar,  M. Rabus,  J. Southworth,  Y. Tsapras,  R. Street,  D. Bramich,  A. Cassan,  K. Horne,  J. Wambsganss,  S. Mao,  A. Saha, &quot;OGLE-2018-BLG-1185b: A Low-mass Microlensing Planet Orbiting a Low-mass Dwarf.&quot; The Astronomical Journal, 2021.'
+---
+Use [Google Scholar](https://scholar.google.com/scholar?q=OGLE+2018+BLG+1185b:+A+Low+mass+Microlensing+Planet+Orbiting+a+Low+mass+Dwarf){:target="_blank"} for full citation
