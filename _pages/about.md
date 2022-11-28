@@ -17,6 +17,8 @@ I am interested in understanding the physics of low-mass objects, from cool dwar
 ### Rubin Observatory
 
 Currently, I am assessing the performance of the LSST pipeline in crowded fields, therefore I analyze DECam images with the Rubin pipeline. During the early commissioning phase, I will participate in the assement of the photometric and astrometric quality of the Rubin data. My aim is to understand the different noise components and correlations present in the data set, like e.g., systematic noise in the time series. I am interested in evaluating the astrometric errors and understanding their limitations with respect to high proper motion objects and detection. 
+I am leading the In-Kind Contributions to Rubin Observatory System Integration, Test, and Commissioning Efforts: “Observing support and science validation of time series photometry” and I am Co-I for commissioining effort “Science validation for astrometry”
+
 
 ### Exoplanets and Browns dwarfs
 
