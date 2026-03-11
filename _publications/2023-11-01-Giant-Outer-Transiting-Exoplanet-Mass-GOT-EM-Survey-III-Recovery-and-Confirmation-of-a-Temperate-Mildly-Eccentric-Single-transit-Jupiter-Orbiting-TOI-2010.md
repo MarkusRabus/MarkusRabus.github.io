@@ -1,0 +1,9 @@
+---
+title: "Giant Outer Transiting Exoplanet Mass (GOT ’EM) Survey. III. Recovery and Confirmation of a Temperate, Mildly Eccentric, Single-transit Jupiter Orbiting TOI-2010"
+collection: publications
+permalink: /publication/2023-11-01-Giant-Outer-Transiting-Exoplanet-Mass-GOT-EM-Survey-III-Recovery-and-Confirmation-of-a-Temperate-Mildly-Eccentric-Single-transit-Jupiter-Orbiting-TOI-2010
+date: 2023-11-01
+venue: 'The Astronomical Journal'
+citation: 'Christopher R. Mann,  Paul A. Dalba,  David Lafrenière,  Benjamin J. Fulton,  Guillaume Hébrard,  Isabelle Boisse,  Shweta Dalal,  Magali Deleuil,  Xavier Delfosse,  Olivier Demangeon,  Thierry Forveille,  Neda Heidari,  Flavien Kiefer,  Eder Martioli,  Claire Moutou,  Michael Endl,  William D. Cochran,  Phillip MacQueen,  Franck Marchis,  Diana Dragomir,  Arvind F. Gupta,  Dax L. Feliz,  Belinda A. Nicholson,  Carl Ziegler,  Steven Villanueva,  Jason Rowe,  Geert Jan Talens,  Daniel Thorngren,  Daryll LaCourse,  Tom Jacobs,  Andrew W. Howard,  Allyson Bieryla,  David W. Latham,  Markus Rabus,  Tara Fetherolf,  Coel Hellier,  Steve B. Howell,  Peter Plavchan,  Michael Reefe,  Deven Combs,  Michael Bowen,  Justin Wittrock,  George R. Ricker,  S. Seager,  Joshua N. Winn,  Jon M. Jenkins,  Thomas Barclay,  David Watanabe,  Karen A. Collins,  Jason D. Eastman,  Eric B. Ting, &quot;Giant Outer Transiting Exoplanet Mass (GOT ’EM) Survey. III. Recovery and Confirmation of a Temperate, Mildly Eccentric, Single-transit Jupiter Orbiting TOI-2010.&quot; The Astronomical Journal, 2023.'
+---
+Use [Google Scholar](https://scholar.google.com/scholar?q=Giant+Outer+Transiting+Exoplanet+Mass+%28GOT+%E2%80%99EM%29+Survey.+III.+Recovery+and+Confirmation+of+a+Temperate%2C+Mildly+Eccentric%2C+Single-transit+Jupiter+Orbiting+TOI-2010){:target="_blank"} for full citation

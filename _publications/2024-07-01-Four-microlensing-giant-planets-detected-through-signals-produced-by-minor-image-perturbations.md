@@ -1,0 +1,9 @@
+---
+title: "Four microlensing giant planets detected through signals produced by minor-image perturbations"
+collection: publications
+permalink: /publication/2024-07-01-Four-microlensing-giant-planets-detected-through-signals-produced-by-minor-image-perturbations
+date: 2024-07-01
+venue: 'Astronomy & Astrophysics'
+citation: 'Cheongho Han,  Ian A. Bond,  Chung-Uk Lee,  Andrew Gould,  Michael D. Albrow,  Sun-Ju Chung,  Kyu-Ha Hwang,  Youn Kil Jung,  Yoon-Hyun Ryu,  Yossi Shvartzvald,  In-Gu Shin,  Jennifer C. Yee,  Hongjing Yang,  Weicheng Zang,  Sang-Mok Cha,  Doeon Kim,  Dong-Jin Kim,  Seung-Lee Kim,  Dong-Joo Lee,  Yongseok Lee,  Byeong-Gon Park,  Richard W. Pogge,  Fumio Abe,  Ken Bando,  Richard Barry,  David P. Bennett,  Aparna Bhattacharya,  Hirosame Fujii,  Akihiko Fukui,  Ryusei Hamada,  Shunya Hamada,  Naoto Hamasaki,  Yuki Hirao,  Stela Ishitani Silva,  Yoshitaka Itow,  Rintaro Kirikawa,  Naoki Koshimoto,  Yutaka Matsubara,  Shota Miyazaki,  Yasushi Muraki,  Tutumi Nagai,  Kansuke Nunota,  Greg Olmschenk,  Clément Ranc,  Nicholas J. Rattenbury,  Yuki Satoh,  Takahiro Sumi,  Daisuke Suzuki,  Mio Tomoyoshi,  Paul J. Tristram,  Aikaterini Vandorou,  Hibiki Yama,  Kansuke Yamashita,  Etienne Bachelet,  Paolo Rota,  Valerio Bozza,  Paweł Zielinski,  Rachel A. Street,  Yiannis Tsapras,  Markus Hundertmark,  Joachim Wambsganss,  Łukasz Wyrzykowski,  Roberto Figuera Jaimes,  Arnaud Cassan,  Martin Dominik,  Krzysztof A. Rybicki,  Markus Rabus, &quot;Four microlensing giant planets detected through signals produced by minor-image perturbations.&quot; Astronomy & Astrophysics, 2024.'
+---
+Use [Google Scholar](https://scholar.google.com/scholar?q=Four+microlensing+giant+planets+detected+through+signals+produced+by+minor-image+perturbations){:target="_blank"} for full citation
