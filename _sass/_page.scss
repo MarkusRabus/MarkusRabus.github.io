@@ -52,11 +52,17 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $border-color;
+    color: $primary-color;
+  }
+
+  h3 {
+    color: mix(#000, $primary-color, 20%);
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.7;
   }
 
   /* paragraph indents */
@@ -73,10 +79,13 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($link-color, 0.4);
+    transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     &:hover {
-      text-decoration: underline;
+      border-color: $link-color-hover;
+      color: $link-color-hover;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);

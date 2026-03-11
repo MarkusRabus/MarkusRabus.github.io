@@ -85,10 +85,16 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 2px solid $border-color;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+      &:hover {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
     }
   }
 }
@@ -229,9 +235,11 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    transition: color 0.2s ease-in-out, padding-left 0.2s ease-in-out;
 
     &:hover {
-      text-decoration: underline;
+      color: $link-color;
+      padding-left: 3px;
     }
   }
 }
