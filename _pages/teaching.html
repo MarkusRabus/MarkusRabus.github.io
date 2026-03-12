@@ -5,8 +5,82 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  .teaching-wrapper {
+    margin-top: 0.5rem;
+  }
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+  .teaching-intro {
+    margin-bottom: 1.5rem;
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+
+  .teaching-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .teaching-card {
+    border: 1px solid #d9e2ef;
+    border-left: 5px solid #2f6fb2;
+    border-radius: 6px;
+    background: #fbfdff;
+    padding: 1rem 1.1rem;
+  }
+
+  .teaching-card h3 {
+    margin: 0 0 0.8rem 0;
+    color: #1f4f88;
+    font-size: 1.1rem;
+  }
+
+  .course-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .course-item {
+    background: #ffffff;
+    border: 1px solid #e5ebf4;
+    border-radius: 4px;
+    padding: 0.55rem 0.7rem;
+    line-height: 1.45;
+  }
+
+  .course-code {
+    font-weight: 700;
+    color: #113b6b;
+    margin-right: 0.35rem;
+    white-space: nowrap;
+  }
+</style>
+
+<div class="teaching-wrapper">
+  <p class="teaching-intro">Current teaching activities are listed below by level.</p>
+
+  <div class="teaching-grid">
+    <section class="teaching-card">
+      <h3>Undergraduate Courses</h3>
+      <ul class="course-list">
+        <li class="course-item"><span class="course-code">IN1053C</span> Estatica y Dinamica</li>
+        <li class="course-item"><span class="course-code">IN0067C</span> Fisica</li>
+        <li class="course-item"><span class="course-code">IN1053C</span> Fisica Gereral 1</li>
+      </ul>
+    </section>
+
+    <section class="teaching-card">
+      <h3>Doctoral Courses</h3>
+      <ul class="course-list">
+        <li class="course-item"><span class="course-code">DIA0206</span> Vision Computacional</li>
+        <li class="course-item"><span class="course-code">DIA0205</span> Vision Computacional Aplicada</li>
+        <li class="course-item"><span class="course-code">DIA0208</span> Deep Learning</li>
+        <li class="course-item"><span class="course-code">DIA0215</span> Aprendizaje por refuerzo</li>
+      </ul>
+    </section>
+  </div>
+</div>
