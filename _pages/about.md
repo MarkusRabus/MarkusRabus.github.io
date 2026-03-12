@@ -73,7 +73,7 @@ redirect_from:
   <p><strong>March 17, 2026 • 10:00 AM</strong></p>
   <p><strong>Title:</strong> An Introduction to Rubin Observatory</p>
   <p><strong>Abstract:</strong> This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.</p>
-  <a href="/hackathon/">View Full Details & Flyer →</a>
+  <a href="/hackathon/">View Full Details →</a>
   <a class="secondary-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open Location Map (PDF)</a>
 </div>
 
