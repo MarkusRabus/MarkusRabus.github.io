@@ -143,4 +143,9 @@ author_profile: false
     <li><strong>Organizer:</strong> Markus Rabus</li>
     <li><strong>Presenter:</strong> Jeff Carlin</li>
   </ul>
+
+  <h4>About the Presenter</h4>
+  <p>Jeff Carlin is an astrophysicist and Science Validation Scientist in the Data Management subsystem at the Vera C. Rubin Observatory Project Office. His work focuses on planning and executing validation campaigns to ensure Rubin data products meet science requirements and enable LSST science goals.</p>
+  <p>His research interests include near-field cosmology, galactic archaeology, dwarf galaxies, stellar tidal streams, structure of the Milky Way, and astronomical surveys.</p>
+  <p><strong>Profile:</strong> <a href="https://jeffcarlin.github.io/" target="_blank" rel="noopener">https://jeffcarlin.github.io/</a></p>
 </div>
