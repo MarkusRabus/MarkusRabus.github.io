@@ -7,7 +7,58 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Markus Rabus, Assistant Professor at the [Universidad Católica de la Santísima Concepción](https://ucsc.cl/) in the [Departamento de Matemática y Física Aplicadas](https://dmfa.ucsc.cl/).
+
+<style>
+  .announcement-banner {
+    background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+    color: white;
+    padding: 25px;
+    margin: -25px -25px 30px -25px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+    border-left: 5px solid #0d47a1;
+  }
+  
+  .announcement-banner h3 {
+    margin-top: 0;
+    color: #ffeb3b;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .announcement-banner p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .announcement-banner a {
+    display: inline-block;
+    background: white;
+    color: #1976d2;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .announcement-banner a:hover {
+    background: #ffeb3b;
+    color: #0d47a1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+</style>
+
+<div class="announcement-banner">
+  <h3>🚀 Upcoming: Rubin Observatory Hackathon</h3>
+  <p><strong>March 17, 2026 • 10:00 AM</strong></p>
+  <p>An Introduction to Rubin Observatory - Learn about the LSST Camera, data pipelines, and the Legacy Survey of Space and Time.</p>
+  <a href="/hackathon/">View Full Details & Flyer →</a>
+</div>
+
+Markus Rabus, Associate Professor at the [Universidad Católica de la Santísima Concepción](https://ucsc.cl/) in the [Departamento de Matemática y Física Aplicadas](https://dmfa.ucsc.cl/).
 
 
 ## My research

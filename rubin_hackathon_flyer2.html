@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rubin Observatory Hackathon Flyer</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 794px;
+    min-height: 1123px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .flyer {
+    width: 794px;
+    min-height: 1123px;
+    position: relative;
+    background: #01020a;
+    overflow: hidden;
+  }
+
+  /* Deep space background */
+  .bg-stars {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.9) 0%, transparent 100%),
+      radial-gradient(1px 1px at 25% 8%, rgba(255,255,255,0.7) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 40% 20%, rgba(200,220,255,0.8) 0%, transparent 100%),
+      radial-gradient(1px 1px at 60% 5%, rgba(255,255,255,0.6) 0%, transparent 100%),
+      radial-gradient(2px 2px at 75% 12%, rgba(255,240,200,0.9) 0%, transparent 100%),
+      radial-gradient(1px 1px at 88% 18%, rgba(255,255,255,0.7) 0%, transparent 100%),
+      radial-gradient(1px 1px at 15% 35%, rgba(255,255,255,0.5) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 55% 30%, rgba(200,230,255,0.8) 0%, transparent 100%),
+      radial-gradient(1px 1px at 92% 40%, rgba(255,255,255,0.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 5% 50%, rgba(255,255,255,0.4) 0%, transparent 100%),
+      radial-gradient(2px 2px at 33% 55%, rgba(255,255,255,0.7) 0%, transparent 100%),
+      radial-gradient(1px 1px at 70% 60%, rgba(200,210,255,0.6) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 85% 65%, rgba(255,255,255,0.8) 0%, transparent 100%),
+      radial-gradient(1px 1px at 48% 70%, rgba(255,255,255,0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 18% 78%, rgba(255,240,210,0.7) 0%, transparent 100%),
+      radial-gradient(2px 2px at 95% 80%, rgba(255,255,255,0.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 62% 85%, rgba(200,220,255,0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 38% 90%, rgba(255,255,255,0.4) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 78% 92%, rgba(255,255,255,0.7) 0%, transparent 100%),
+      radial-gradient(1px 1px at 22% 95%, rgba(200,230,255,0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 50% 97%, rgba(255,255,255,0.3) 0%, transparent 100%),
+      #01020a;
+    z-index: 0;
+  }
+
+  /* Nebula glow effects */
+  .nebula-1 {
+    position: absolute;
+    width: 600px; height: 500px;
+    top: -80px; left: -100px;
+    background: radial-gradient(ellipse, rgba(20,40,120,0.35) 0%, rgba(60,10,80,0.18) 40%, transparent 70%);
+    filter: blur(40px);
+    z-index: 1;
+  }
+
+  .nebula-2 {
+    position: absolute;
+    width: 500px; height: 400px;
+    bottom: 100px; right: -80px;
+    background: radial-gradient(ellipse, rgba(0,60,100,0.3) 0%, rgba(10,80,60,0.15) 40%, transparent 70%);
+    filter: blur(50px);
+    z-index: 1;
+  }
+
+  .nebula-3 {
+    position: absolute;
+    width: 400px; height: 300px;
+    top: 400px; right: 50px;
+    background: radial-gradient(ellipse, rgba(100,20,60,0.2) 0%, rgba(60,0,80,0.1) 50%, transparent 70%);
+    filter: blur(60px);
+    z-index: 1;
+  }
+
+  /* Main image section */
+  .hero-image-container {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: brightness(0.75) saturate(1.3);
+    display: block;
+  }
+
+  /* Gradient overlay on image */
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(1,2,10,0.15) 0%,
+      rgba(1,2,10,0.0) 30%,
+      rgba(1,2,10,0.0) 60%,
+      rgba(1,2,10,0.85) 90%,
+      rgba(1,2,10,1.0) 100%
+    );
+  }
+
+  /* Thin horizontal rule lines */
+  .scan-lines {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 3px,
+      rgba(0,0,0,0.04) 3px,
+      rgba(0,0,0,0.04) 4px
+    );
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* Observatory badge in corner */
+  .obs-badge {
+    position: absolute;
+    top: 28px;
+    right: 32px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  .badge-line {
+    height: 1.5px;
+    background: linear-gradient(to left, rgba(120,180,255,0.9), transparent);
+    width: 160px;
+  }
+
+  .badge-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(140, 195, 255, 0.85);
+    text-align: right;
+  }
+
+  /* Coordinate decoration */
+  .coords {
+    position: absolute;
+    top: 28px;
+    left: 32px;
+    z-index: 10;
+    font-family: 'Space Mono', monospace;
+    font-size: 8px;
+    color: rgba(100,160,220,0.6);
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+  }
+
+  /* Cross-hair decorative element */
+  .crosshair {
+    position: absolute;
+    z-index: 10;
+    width: 30px; height: 30px;
+  }
+  .crosshair::before, .crosshair::after {
+    content: '';
+    position: absolute;
+    background: rgba(120,190,255,0.6);
+  }
+  .crosshair::before { width: 1px; height: 100%; left: 50%; top: 0; }
+  .crosshair::after  { width: 100%; height: 1px; top: 50%; left: 0; }
+  .crosshair .ch-ring {
+    position: absolute;
+    width: 10px; height: 10px;
+    border: 1px solid rgba(120,190,255,0.6);
+    border-radius: 50%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Content section */
+  .content {
+    position: relative;
+    z-index: 5;
+    padding: 0 52px 52px 52px;
+    margin-top: -30px;
+  }
+
+  /* Thin separator line */
+  .sep-line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(80,140,220,0.6) 20%, rgba(80,140,220,0.6) 80%, transparent);
+    margin-bottom: 24px;
+  }
+
+  /* Data tag */
+  .data-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(80, 150, 220, 0.8);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .data-tag::before {
+    content: '';
+    display: inline-block;
+    width: 18px; height: 1px;
+    background: rgba(80,150,220,0.7);
+  }
+
+  /* Empty text box for manual text insertion */
+  .text-box {
+    border: 1px solid rgba(80,140,220,0.3);
+    background: rgba(255,255,255,0.02);
+    border-radius: 2px;
+    padding: 18px 22px;
+    min-height: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    backdrop-filter: blur(2px);
+  }
+  .text-box-label {
+    position: absolute;
+    top: -9px;
+    left: 14px;
+    background: #01020a;
+    padding: 0 6px;
+    font-family: 'Space Mono', monospace;
+    font-size: 7.5px;
+    letter-spacing: 3px;
+    color: rgba(80,140,220,0.6);
+    text-transform: uppercase;
+  }
+
+  /* Large empty title area */
+  .title-area {
+    min-height: 120px;
+    margin-bottom: 18px;
+    border-left: 2px solid rgba(80,140,220,0.4);
+    padding-left: 20px;
+  }
+
+  /* Info grid */
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+
+  .info-cell {
+    border: 1px solid rgba(80,140,220,0.2);
+    background: rgba(10,20,50,0.3);
+    padding: 14px 16px;
+    border-radius: 2px;
+    position: relative;
+  }
+  .info-cell-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 7.5px;
+    letter-spacing: 3px;
+    color: rgba(80,140,220,0.65);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .info-cell-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    color: rgba(210,230,255,0.9);
+    line-height: 1.45;
+  }
+  .info-cell-value.small {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: rgba(180,210,255,0.8);
+    line-height: 1.6;
+  }
+
+  /* Bottom strip */
+  .bottom-strip {
+    position: relative;
+    z-index: 5;
+    padding: 16px 52px;
+    border-top: 1px solid rgba(80,140,220,0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bottom-logos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 7px;
+    letter-spacing: 2px;
+    color: rgba(100,150,200,0.5);
+    text-transform: uppercase;
+  }
+  .bottom-logos .dot {
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: rgba(80,140,220,0.4);
+  }
+
+  /* Decorative corner accents */
+  .corner {
+    position: absolute;
+    width: 20px; height: 20px;
+    z-index: 10;
+  }
+  .corner-tl { top: 12px; left: 12px; border-top: 1.5px solid rgba(80,150,220,0.5); border-left: 1.5px solid rgba(80,150,220,0.5); }
+  .corner-tr { top: 12px; right: 12px; border-top: 1.5px solid rgba(80,150,220,0.5); border-right: 1.5px solid rgba(80,150,220,0.5); }
+  .corner-bl { bottom: 12px; left: 12px; border-bottom: 1.5px solid rgba(80,150,220,0.5); border-left: 1.5px solid rgba(80,150,220,0.5); }
+  .corner-br { bottom: 12px; right: 12px; border-bottom: 1.5px solid rgba(80,150,220,0.5); border-right: 1.5px solid rgba(80,150,220,0.5); }
+
+  /* Small description area */
+  .description-area {
+    min-height: 65px;
+  }
+
+  /* Organizer bar */
+  .organizer-bar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 18px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(80,140,220,0.15);
+    border-bottom: 1px solid rgba(80,140,220,0.15);
+  }
+  .organizer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .organizer-role {
+    font-family: 'Space Mono', monospace;
+    font-size: 7.5px;
+    letter-spacing: 3px;
+    color: rgba(80,140,220,0.65);
+    text-transform: uppercase;
+  }
+  .organizer-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(200,225,255,0.9);
+    letter-spacing: 1px;
+  }
+  .org-divider {
+    width: 1px;
+    height: 35px;
+    background: rgba(80,140,220,0.25);
+  }
+
+  /* Rubin logo area */
+  .rubin-logo {
+    width: 80px;
+    opacity: 0.75;
+  }
+
+  /* Image caption */
+  .img-caption {
+    position: absolute;
+    bottom: 34px;
+    left: 52px;
+    z-index: 10;
+    font-family: 'Space Mono', monospace;
+    font-size: 7px;
+    color: rgba(140,190,255,0.5);
+    letter-spacing: 1.5px;
+  }
+
+  /* print / A4 styling */
+  @media print {
+    body { background: white; }
+    .flyer { page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+<div class="flyer">
+
+  <!-- Background layers -->
+  <div class="bg-stars"></div>
+  <div class="nebula-1"></div>
+  <div class="nebula-2"></div>
+  <div class="nebula-3"></div>
+  <div class="scan-lines"></div>
+
+  <!-- Corner accents -->
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+
+  <!-- Observatory badge top-right -->
+  <div class="obs-badge">
+    <div class="badge-text">NSF – DOE Vera C. Rubin Observatory</div>
+    <div class="badge-line"></div>
+    <div class="badge-text" style="font-size:7.5px; color:rgba(100,160,220,0.55);">Legacy Survey of Space and Time</div>
+  </div>
+
+  <!-- Coordinates top-left -->
+  <div class="coords">
+    RA &nbsp;–– &nbsp;DEC<br>
+    Cerro Pachón · Chile<br>
+    Alt. 2682 m
+  </div>
+
+  <!-- Crosshair decorations -->
+  <div class="crosshair" style="top:55px; left:55px;"><div class="ch-ring"></div></div>
+  <div class="crosshair" style="top:55px; right:55px;"><div class="ch-ring"></div></div>
+
+  <!-- Hero image - Rubin First Look: Trifid and Lagoon Nebulae (public domain / CC) -->
+  <div class="hero-image-container">
+    <img 
+      class="hero-image"
+      src="https://storage.googleapis.com/vera-rubin-observatory/first-look-image-release/Im1.tif"
+      alt="Cosmic Treasure Chest captured by Rubin Observatory"
+      onerror="this.onerror=null;"
+    />
+    <div class="hero-overlay"></div>
+    <div class="img-caption">LSST Camera · Cosmic Treasure Chest · NSF–DOE Vera C. Rubin Observatory / SLAC / DOE / NSF / AURA</div>
+  </div>
+
+  <!-- Content below image -->
+  <div class="content">
+    <div class="sep-line"></div>
+
+    <!-- Data tag / event type label -->
+    <div style="margin-bottom: 16px; display:flex; align-items:center; gap:16px;">
+      <span style="font-family:'Playfair Display', serif; font-size: 42px; font-weight: 900; letter-spacing: 6px; text-transform: uppercase; color: transparent; background: linear-gradient(90deg, rgba(100,180,255,1) 0%, rgba(180,220,255,0.85) 50%, rgba(80,150,230,0.9) 100%); -webkit-background-clip: text; background-clip: text; filter: drop-shadow(0 0 18px rgba(80,160,255,0.55)) drop-shadow(0 0 4px rgba(120,190,255,0.4)); line-height: 1;">HACKATHON</span>
+      <div style="display:flex; flex-direction:column; gap:5px; padding-left:10px; border-left: 1.5px solid rgba(80,140,220,0.35);">
+        <span style="font-family:'Space Mono',monospace; font-size:8px; letter-spacing:3px; color:rgba(100,160,220,0.7); text-transform:uppercase;">Astronomical</span>
+        <span style="font-family:'Space Mono',monospace; font-size:8px; letter-spacing:3px; color:rgba(100,160,220,0.7); text-transform:uppercase;">Data Science</span>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div style="margin-bottom:20px; border-left: 2px solid rgba(80,140,220,0.5); padding-left: 20px;">
+      <div style="font-family:'Playfair Display',serif; font-size:30px; font-weight:700; color:rgba(220,235,255,0.97); line-height:1.25; letter-spacing:0.5px;">
+        An Introduction to<br>Rubin Observatory
+      </div>
+    </div>
+
+    <!-- Abstract -->
+    <div class="text-box" style="margin-bottom:20px;">
+      <div class="text-box-label">Abstract</div>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:13.5px; font-weight:300; color:rgba(185,210,245,0.88); line-height:1.75; margin-top:6px;">
+        This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.
+      </p>
+    </div>
+
+    <!-- Organizer / presenter bar -->
+    <div class="organizer-bar">
+      <div class="organizer-item">
+        <span class="organizer-role">Organizer</span>
+        <span class="organizer-name">Markus Rabus</span>
+      </div>
+      <div class="org-divider"></div>
+      <div class="organizer-item">
+        <span class="organizer-role">Presenter</span>
+        <span class="organizer-name">Jeff Carlin</span>
+      </div>
+    </div>
+
+    <!-- Info grid: date / place -->
+    <div class="info-grid">
+      <div class="info-cell">
+        <div class="info-cell-label">Date &amp; Time</div>
+        <div class="info-cell-value">March 17, 2026</div>
+        <div class="info-cell-value" style="font-size:11px; color:rgba(150,190,240,0.7); font-family:'Space Mono',monospace; margin-top:3px;">10:00 AM</div>
+      </div>
+      <div class="info-cell">
+        <div class="info-cell-label">Location</div>
+        <div class="info-cell-value small">
+          Universidad Católica de la<br>
+          Santísima Concepción<br>
+          Dep. Matemática y Física Aplicada<br>
+          <span style="color:rgba(120,170,230,0.65);">Salón Billeke</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra notes box -->
+    <div class="text-box" style="min-height:60px;">
+      <div class="text-box-label">Additional Information</div>
+    </div>
+
+  </div>
+
+
+
+</div>
+</body>
+</html>
