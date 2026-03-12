@@ -5,12 +5,104 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talks-wrapper {
+    margin-top: 0.5rem;
+  }
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  .talks-intro {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+  }
 
-{% endif %}
+  .talks-map-link {
+    margin-bottom: 1.25rem;
+  }
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  .talks-map-link a {
+    color: #1f5f9d;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(31, 95, 157, 0.35);
+  }
+
+  .talk-year {
+    margin: 1.75rem 0 0.75rem 0;
+    color: #1f4f88;
+  }
+
+  .talk-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .talk-item {
+    background: #fbfdff;
+    border: 1px solid #dce6f2;
+    border-left: 5px solid #2f6fb2;
+    border-radius: 6px;
+    padding: 0.95rem 1rem;
+  }
+
+  .talk-title {
+    font-weight: 700;
+    color: #133c69;
+    margin-bottom: 0.25rem;
+  }
+
+  .talk-meta {
+    color: #42556d;
+    line-height: 1.55;
+  }
+
+  .talk-type {
+    display: inline-block;
+    margin-top: 0.45rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    background: #e8f0fb;
+    color: #1f5f9d;
+    font-size: 0.86rem;
+    font-weight: 700;
+  }
+</style>
+
+{% assign talks_by_date = site.talks | sort: 'date' | reverse %}
+
+<div class="talks-wrapper">
+  <p class="talks-intro">A selection of conference talks, invited presentations, workshops, and public talks is listed below.</p>
+
+  {% if site.talkmap_link == true %}
+    <p class="talks-map-link"><a href="/talkmap.html">See a map of the places where I have given talks</a></p>
+  {% endif %}
+
+  {% assign current_year = "" %}
+  {% for post in talks_by_date %}
+    {% assign talk_year = post.date | date: "%Y" %}
+    {% if talk_year != current_year %}
+      {% unless forloop.first %}
+        </ul>
+      {% endunless %}
+      <h2 class="talk-year">{{ talk_year }}</h2>
+      <ul class="talk-list">
+      {% assign current_year = talk_year %}
+    {% endif %}
+
+    <li class="talk-item">
+      <div class="talk-title">{{ post.title }}</div>
+      <div class="talk-meta">
+        {{ post.venue }}<br>
+        {{ post.location }}<br>
+        {{ post.date | date: "%B %d, %Y" }}
+      </div>
+      {% if post.type %}<div class="talk-type">{{ post.type }}</div>{% endif %}
+    </li>
+
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</div>
