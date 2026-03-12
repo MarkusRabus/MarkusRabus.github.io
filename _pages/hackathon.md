@@ -20,6 +20,13 @@ author_profile: false
     height: auto;
     display: block;
   }
+
+  .image-credit {
+    margin: 8px 0 0 0;
+    font-size: 0.82em;
+    color: #5b677a;
+    text-align: right;
+  }
   
   .flyer-info {
     background: #f8f9fa;
@@ -83,6 +90,7 @@ author_profile: false
 <div class="hackathon-flyer-container">
   <img class="hackathon-flyer-image" src="/images/Im1-10k.jpg" alt="Astronomical Data Hackathon Flyer" loading="eager" decoding="async">
 </div>
+<p class="image-credit">Image credit: NSF-DOE Vera C. Rubin Observatory / SLAC National Accelerator Laboratory / NSF / DOE / AURA</p>
 
 <div class="flyer-info">
   <h2>Event Details</h2>
@@ -104,14 +112,6 @@ author_profile: false
   <h3>About This Hackathon</h3>
   <p><strong>Title:</strong> An Introduction to Rubin Observatory</p>
   <p><strong>Abstract:</strong> This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.</p>
-  
-  <h4>What You'll Learn</h4>
-  <ul>
-    <li>Overview of Rubin's Simonyi Survey Telescope and LSST Camera</li>
-    <li>Introduction to the Legacy Survey of Space and Time (LSST)</li>
-    <li>Data Management System: processing pipelines and data products</li>
-    <li>Data releases and timeline for upcoming products</li>
-  </ul>
   
   <h4>Organizers & Presenters</h4>
   <ul>
