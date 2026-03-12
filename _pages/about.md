@@ -9,6 +9,10 @@ redirect_from:
 ---
 
 <style>
+  .page__title {
+    display: none;
+  }
+
   .announcement-banner {
     background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
     color: white;
@@ -72,6 +76,8 @@ redirect_from:
   <a href="/hackathon/">View Full Details & Flyer →</a>
   <a class="secondary-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open Location Map (PDF)</a>
 </div>
+
+## About
 
 Markus Rabus, Associate Professor at the [Universidad Católica de la Santísima Concepción](https://ucsc.cl/) in the [Departamento de Matemática y Física Aplicadas](https://dmfa.ucsc.cl/).
 

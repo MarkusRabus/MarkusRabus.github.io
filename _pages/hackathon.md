@@ -68,6 +68,23 @@ author_profile: false
     border-bottom-color: rgba(21, 101, 192, 0.7);
   }
 
+  .location-panel {
+    margin: 8px 0 24px 0;
+    padding: 16px 18px;
+    background: #ffffff;
+    border-left: 4px solid #1976d2;
+    border-radius: 2px;
+  }
+
+  .location-panel h3 {
+    margin: 0 0 10px 0;
+    color: #0d47a1;
+  }
+
+  .location-panel p {
+    margin: 0 0 8px 0;
+  }
+
   @media (max-width: 768px) {
     .flyer-info {
       padding: 20px;
@@ -99,6 +116,14 @@ author_profile: false
       Salón Billeke<br>
       <a class="location-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open location map (PDF)</a>
     </div>
+  </div>
+
+  <div class="location-panel">
+    <h3>How to Find the Venue</h3>
+    <p><strong>Universidad Catolica de la Santisima Concepcion</strong><br>
+    Departamento de Matematica y Fisica Aplicada<br>
+    Salon Billeke</p>
+    <p><a class="location-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open location map (PDF)</a></p>
   </div>
   
   <h3>About This Hackathon</h3>
