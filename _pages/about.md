@@ -49,13 +49,28 @@ redirect_from:
     color: #0d47a1;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   }
+
+  .announcement-banner .secondary-link {
+    margin-left: 10px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.75);
+  }
+
+  .announcement-banner .secondary-link:hover {
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+    border-color: #ffffff;
+  }
 </style>
 
 <div class="announcement-banner">
   <h3>🚀 Upcoming: Rubin Observatory Hackathon</h3>
   <p><strong>March 17, 2026 • 10:00 AM</strong></p>
-  <p>An Introduction to Rubin Observatory - Learn about the LSST Camera, data pipelines, and the Legacy Survey of Space and Time.</p>
+  <p><strong>Title:</strong> An Introduction to Rubin Observatory</p>
+  <p><strong>Abstract:</strong> This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.</p>
   <a href="/hackathon/">View Full Details & Flyer →</a>
+  <a class="secondary-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open Location Map (PDF)</a>
 </div>
 
 Markus Rabus, Associate Professor at the [Universidad Católica de la Santísima Concepción](https://ucsc.cl/) in the [Departamento de Matemática y Física Aplicadas](https://dmfa.ucsc.cl/).

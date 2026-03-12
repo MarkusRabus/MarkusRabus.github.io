@@ -54,6 +54,20 @@ author_profile: false
     letter-spacing: 1px;
   }
 
+  .location-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0d47a1;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(13, 71, 161, 0.35);
+  }
+
+  .location-link:hover {
+    color: #1565c0;
+    border-bottom-color: rgba(21, 101, 192, 0.7);
+  }
+
   @media (max-width: 768px) {
     .flyer-info {
       padding: 20px;
@@ -82,12 +96,14 @@ author_profile: false
       <strong>📍 Location</strong>
       Universidad Católica de la Santísima Concepción<br>
       Dep. Matemática y Física Aplicada<br>
-      Salón Billeke
+      Salón Billeke<br>
+      <a class="location-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open location map (PDF)</a>
     </div>
   </div>
   
   <h3>About This Hackathon</h3>
-  <p>This is a hackathon focused on astronomical data science and an introduction to Rubin Observatory. The session will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST).</p>
+  <p><strong>Title:</strong> An Introduction to Rubin Observatory</p>
+  <p><strong>Abstract:</strong> This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.</p>
   
   <h4>What You'll Learn</h4>
   <ul>
