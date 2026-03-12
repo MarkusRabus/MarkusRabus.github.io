@@ -14,6 +14,12 @@ author_profile: false
     border-radius: 4px;
     overflow: hidden;
   }
+
+  .hackathon-flyer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   
   .flyer-info {
     background: #f8f9fa;
@@ -47,10 +53,21 @@ author_profile: false
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+
+  @media (max-width: 768px) {
+    .flyer-info {
+      padding: 20px;
+    }
+
+    .event-detail {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
 </style>
 
 <div class="hackathon-flyer-container">
-  <iframe src="/rubin_hackathon_flyer2.html" style="width: 100%; height: 1200px; border: none;" title="Rubin Observatory Hackathon Flyer"></iframe>
+  <img class="hackathon-flyer-image" src="/images/Im1-10k.jpg" alt="Rubin Observatory Hackathon Flyer" loading="eager" decoding="async">
 </div>
 
 <div class="flyer-info">

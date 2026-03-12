@@ -13,7 +13,7 @@ redirect_from:
     background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
     color: white;
     padding: 25px;
-    margin: -25px -25px 30px -25px;
+    margin: 0 0 30px 0;
     border-radius: 4px;
     box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
     border-left: 5px solid #0d47a1;
