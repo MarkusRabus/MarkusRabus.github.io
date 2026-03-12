@@ -1,5 +1,5 @@
 ---
-title: "Rubin Observatory Hackathon"
+title: "Astronomical Data Hackathon"
 excerpt: "An Introduction to Rubin Observatory - March 17, 2026"
 permalink: /hackathon/
 author_profile: false
@@ -68,23 +68,6 @@ author_profile: false
     border-bottom-color: rgba(21, 101, 192, 0.7);
   }
 
-  .location-panel {
-    margin: 8px 0 24px 0;
-    padding: 16px 18px;
-    background: #ffffff;
-    border-left: 4px solid #1976d2;
-    border-radius: 2px;
-  }
-
-  .location-panel h3 {
-    margin: 0 0 10px 0;
-    color: #0d47a1;
-  }
-
-  .location-panel p {
-    margin: 0 0 8px 0;
-  }
-
   @media (max-width: 768px) {
     .flyer-info {
       padding: 20px;
@@ -98,7 +81,7 @@ author_profile: false
 </style>
 
 <div class="hackathon-flyer-container">
-  <img class="hackathon-flyer-image" src="/images/Im1-10k.jpg" alt="Rubin Observatory Hackathon Flyer" loading="eager" decoding="async">
+  <img class="hackathon-flyer-image" src="/images/Im1-10k.jpg" alt="Astronomical Data Hackathon Flyer" loading="eager" decoding="async">
 </div>
 
 <div class="flyer-info">
@@ -116,14 +99,6 @@ author_profile: false
       Salón Billeke<br>
       <a class="location-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open location map (PDF)</a>
     </div>
-  </div>
-
-  <div class="location-panel">
-    <h3>How to Find the Venue</h3>
-    <p><strong>Universidad Catolica de la Santisima Concepcion</strong><br>
-    Departamento de Matematica y Fisica Aplicada<br>
-    Salon Billeke</p>
-    <p><a class="location-link" href="/Ubicacion_DMFA.pdf" target="_blank" rel="noopener">Open location map (PDF)</a></p>
   </div>
   
   <h3>About This Hackathon</h3>
@@ -143,9 +118,4 @@ author_profile: false
     <li><strong>Organizer:</strong> Markus Rabus</li>
     <li><strong>Presenter:</strong> Jeff Carlin</li>
   </ul>
-
-  <h4>About the Presenter</h4>
-  <p>Jeff Carlin is an astrophysicist and Science Validation Scientist in the Data Management subsystem at the Vera C. Rubin Observatory Project Office. His work focuses on planning and executing validation campaigns to ensure Rubin data products meet science requirements and enable LSST science goals.</p>
-  <p>His research interests include near-field cosmology, galactic archaeology, dwarf galaxies, stellar tidal streams, structure of the Milky Way, and astronomical surveys.</p>
-  <p><strong>Profile:</strong> <a href="https://jeffcarlin.github.io/" target="_blank" rel="noopener">https://jeffcarlin.github.io/</a></p>
 </div>

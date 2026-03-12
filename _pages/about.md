@@ -69,7 +69,7 @@ redirect_from:
 </style>
 
 <div class="announcement-banner">
-  <h3>🚀 Upcoming: Rubin Observatory Hackathon</h3>
+  <h3>🚀 Upcoming: Astronomical Data Hackathon</h3>
   <p><strong>March 17, 2026 • 10:00 AM</strong></p>
   <p><strong>Title:</strong> An Introduction to Rubin Observatory</p>
   <p><strong>Abstract:</strong> This talk will provide an overview of Rubin's Simonyi Survey Telescope, the LSST Camera, and the Legacy Survey of Space and Time (LSST). It will provide a high-level summary of the Data Management System: the data processing pipelines and the variety of data products they produce. It will also introduce the data releases that are available now, and give a timeline for what to expect over the next couple of years.</p>
